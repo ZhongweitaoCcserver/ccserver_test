@@ -1,0 +1,295 @@
+msg_size: 1 Threads: 2 Sessions: 2 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4006: 22 Nov 08:41:27.224 * CCPP_CLIENT Begin! --server.cc:149
+4006: 22 Nov 08:41:27.226 * All connected. --server.cc:180
+4006: 22 Nov 08:41:42.227 * CCSERVER time off now! --server.cc:197
+4006: 22 Nov 08:41:42.227 * CCSERVER shutdown now! --epollreactor.cc:169
+4006: 22 Nov 08:41:42.227 * ****:55560570 total bytes read. --server.cc:201
+4006: 22 Nov 08:41:42.227 * ****:509730 total messages read. --server.cc:203
+4006: 22 Nov 08:41:42.227 * ****:109 average message size. --server.cc:207
+4006: 22 Nov 08:41:42.227 * ****:3.532453 MiB/s throughput. --server.cc:209
+4006: 22 Nov 08:41:42.227 * ****:33982 Msg/s throughput. --server.cc:211
+4006: 22 Nov 08:41:42.227 * CCSERVER wait for reactors. --server.cc:213
+4006: 22 Nov 08:41:42.228 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 10 Threads: 2 Sessions: 2 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4019: 22 Nov 08:41:43.276 * CCPP_CLIENT Begin! --server.cc:149
+4019: 22 Nov 08:41:43.278 * All connected. --server.cc:180
+4019: 22 Nov 08:41:58.279 * CCSERVER time off now! --server.cc:197
+4019: 22 Nov 08:41:58.279 * CCSERVER shutdown now! --epollreactor.cc:169
+4019: 22 Nov 08:41:58.279 * ****:542307700 total bytes read. --server.cc:201
+4019: 22 Nov 08:41:58.280 * ****:497530 total messages read. --server.cc:203
+4019: 22 Nov 08:41:58.280 * ****:1090 average message size. --server.cc:207
+4019: 22 Nov 08:41:58.280 * ****:34.478995 MiB/s throughput. --server.cc:209
+4019: 22 Nov 08:41:58.280 * ****:33168 Msg/s throughput. --server.cc:211
+4019: 22 Nov 08:41:58.280 * CCSERVER wait for reactors. --server.cc:213
+4019: 22 Nov 08:41:58.285 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 100 Threads: 2 Sessions: 2 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4040: 22 Nov 08:41:59.324 * CCPP_CLIENT Begin! --server.cc:149
+4040: 22 Nov 08:41:59.325 * All connected. --server.cc:180
+4040: 22 Nov 08:42:14.327 * CCSERVER time off now! --server.cc:197
+4040: 22 Nov 08:42:14.327 * CCSERVER shutdown now! --epollreactor.cc:169
+4040: 22 Nov 08:42:14.327 * ****:4766243000 total bytes read. --server.cc:201
+4040: 22 Nov 08:42:14.327 * ****:437270 total messages read. --server.cc:203
+4040: 22 Nov 08:42:14.327 * ****:10900 average message size. --server.cc:207
+4040: 22 Nov 08:42:14.327 * ****:303.029569 MiB/s throughput. --server.cc:209
+4040: 22 Nov 08:42:14.327 * ****:29151 Msg/s throughput. --server.cc:211
+4040: 22 Nov 08:42:14.327 * CCSERVER wait for reactors. --server.cc:213
+4040: 22 Nov 08:42:14.332 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 500 Threads: 2 Sessions: 2 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4053: 22 Nov 08:42:15.368 * CCPP_CLIENT Begin! --server.cc:149
+4053: 22 Nov 08:42:15.371 * All connected. --server.cc:180
+4053: 22 Nov 08:42:30.372 * CCSERVER time off now! --server.cc:197
+4053: 22 Nov 08:42:30.372 * CCSERVER shutdown now! --epollreactor.cc:169
+4053: 22 Nov 08:42:30.372 * ****:12754929388 total bytes read. --server.cc:201
+4053: 22 Nov 08:42:30.372 * ****:235450 total messages read. --server.cc:203
+4053: 22 Nov 08:42:30.372 * ****:54172 average message size. --server.cc:207
+4053: 22 Nov 08:42:30.372 * ****:810.940036 MiB/s throughput. --server.cc:209
+4053: 22 Nov 08:42:30.372 * ****:15696 Msg/s throughput. --server.cc:211
+4053: 22 Nov 08:42:30.372 * CCSERVER wait for reactors. --server.cc:213
+4053: 22 Nov 08:42:30.373 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+msg_size: 1 Threads: 2 Sessions: 10 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4068: 22 Nov 08:42:31.417 * CCPP_CLIENT Begin! --server.cc:149
+4068: 22 Nov 08:42:31.420 * All connected. --server.cc:180
+4068: 22 Nov 08:42:46.422 * CCSERVER time off now! --server.cc:197
+4068: 22 Nov 08:42:46.422 * CCSERVER shutdown now! --epollreactor.cc:169
+4068: 22 Nov 08:42:46.422 * ****:134965762 total bytes read. --server.cc:201
+4068: 22 Nov 08:42:46.422 * ****:1238218 total messages read. --server.cc:203
+4068: 22 Nov 08:42:46.422 * ****:109 average message size. --server.cc:207
+4068: 22 Nov 08:42:46.422 * ****:8.580892 MiB/s throughput. --server.cc:209
+4068: 22 Nov 08:42:46.422 * ****:82547 Msg/s throughput. --server.cc:211
+4068: 22 Nov 08:42:46.422 * CCSERVER wait for reactors. --server.cc:213
+4068: 22 Nov 08:42:46.422 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 10 Threads: 2 Sessions: 10 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4089: 22 Nov 08:42:47.460 * CCPP_CLIENT Begin! --server.cc:149
+4089: 22 Nov 08:42:47.464 * All connected. --server.cc:180
+4089: 22 Nov 08:43:02.465 * CCSERVER time off now! --server.cc:197
+4089: 22 Nov 08:43:02.465 * CCSERVER shutdown now! --epollreactor.cc:169
+4089: 22 Nov 08:43:02.465 * ****:1327235230 total bytes read. --server.cc:201
+4089: 22 Nov 08:43:02.465 * ****:1217647 total messages read. --server.cc:203
+4089: 22 Nov 08:43:02.465 * ****:1090 average message size. --server.cc:207
+4089: 22 Nov 08:43:02.465 * ****:84.383343 MiB/s throughput. --server.cc:209
+4089: 22 Nov 08:43:02.465 * ****:81176 Msg/s throughput. --server.cc:211
+4089: 22 Nov 08:43:02.465 * CCSERVER wait for reactors. --server.cc:213
+4089: 22 Nov 08:43:02.466 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 100 Threads: 2 Sessions: 10 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4102: 22 Nov 08:43:03.505 * CCPP_CLIENT Begin! --server.cc:149
+4102: 22 Nov 08:43:03.510 * All connected. --server.cc:180
+4102: 22 Nov 08:43:18.511 * CCSERVER time off now! --server.cc:197
+4102: 22 Nov 08:43:18.511 * CCSERVER shutdown now! --epollreactor.cc:169
+4102: 22 Nov 08:43:18.511 * ****:9250339500 total bytes read. --server.cc:201
+4102: 22 Nov 08:43:18.511 * ****:848655 total messages read. --server.cc:203
+4102: 22 Nov 08:43:18.511 * ****:10900 average message size. --server.cc:207
+4102: 22 Nov 08:43:18.511 * ****:588.120747 MiB/s throughput. --server.cc:209
+4102: 22 Nov 08:43:18.511 * ****:56577 Msg/s throughput. --server.cc:211
+4102: 22 Nov 08:43:18.511 * CCSERVER wait for reactors. --server.cc:213
+4102: 22 Nov 08:43:18.515 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 500 Threads: 2 Sessions: 10 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4115: 22 Nov 08:43:19.550 * CCPP_CLIENT Begin! --server.cc:149
+4115: 22 Nov 08:43:19.559 * All connected. --server.cc:180
+4115: 22 Nov 08:43:34.561 * CCSERVER time off now! --server.cc:197
+4115: 22 Nov 08:43:34.562 * CCSERVER shutdown now! --epollreactor.cc:169
+4115: 22 Nov 08:43:34.562 * ****:15948062500 total bytes read. --server.cc:201
+4115: 22 Nov 08:43:34.562 * ****:292628 total messages read. --server.cc:203
+4115: 22 Nov 08:43:34.562 * ****:54499 average message size. --server.cc:207
+4115: 22 Nov 08:43:34.562 * ****:1013.950507 MiB/s throughput. --server.cc:209
+4115: 22 Nov 08:43:34.562 * ****:19508 Msg/s throughput. --server.cc:211
+4115: 22 Nov 08:43:34.562 * CCSERVER wait for reactors. --server.cc:213
+4115: 22 Nov 08:43:34.567 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+msg_size: 1 Threads: 2 Sessions: 100 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4130: 22 Nov 08:43:35.606 * CCPP_CLIENT Begin! --server.cc:149
+4130: 22 Nov 08:43:35.625 * All connected. --server.cc:180
+4130: 22 Nov 08:43:50.626 * CCSERVER time off now! --server.cc:197
+4130: 22 Nov 08:43:50.626 * CCSERVER shutdown now! --epollreactor.cc:169
+4130: 22 Nov 08:43:50.627 * ****:134993775 total bytes read. --server.cc:201
+4130: 22 Nov 08:43:50.627 * ****:1238476 total messages read. --server.cc:203
+4130: 22 Nov 08:43:50.627 * ****:108 average message size. --server.cc:207
+4130: 22 Nov 08:43:50.627 * ****:8.582680 MiB/s throughput. --server.cc:209
+4130: 22 Nov 08:43:50.627 * ****:82565 Msg/s throughput. --server.cc:211
+4130: 22 Nov 08:43:50.627 * CCSERVER wait for reactors. --server.cc:213
+4130: 22 Nov 08:43:50.627 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 10 Threads: 2 Sessions: 100 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4151: 22 Nov 08:43:51.666 * CCPP_CLIENT Begin! --server.cc:149
+4151: 22 Nov 08:43:51.683 * All connected. --server.cc:180
+4151: 22 Nov 08:44:06.685 * CCSERVER time off now! --server.cc:197
+4151: 22 Nov 08:44:06.685 * CCSERVER shutdown now! --epollreactor.cc:169
+4151: 22 Nov 08:44:06.685 * ****:1307578170 total bytes read. --server.cc:201
+4151: 22 Nov 08:44:06.685 * ****:1199614 total messages read. --server.cc:203
+4151: 22 Nov 08:44:06.685 * ****:1089 average message size. --server.cc:207
+4151: 22 Nov 08:44:06.685 * ****:83.133720 MiB/s throughput. --server.cc:209
+4151: 22 Nov 08:44:06.685 * ****:79974 Msg/s throughput. --server.cc:211
+4151: 22 Nov 08:44:06.685 * CCSERVER wait for reactors. --server.cc:213
+4151: 22 Nov 08:44:06.686 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 100 Threads: 2 Sessions: 100 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4164: 22 Nov 08:44:07.726 * CCPP_CLIENT Begin! --server.cc:149
+4164: 22 Nov 08:44:07.760 * All connected. --server.cc:180
+4164: 22 Nov 08:44:22.762 * CCSERVER time off now! --server.cc:197
+4164: 22 Nov 08:44:22.762 * CCSERVER shutdown now! --epollreactor.cc:169
+4164: 22 Nov 08:44:22.762 * ****:7190719100 total bytes read. --server.cc:201
+4164: 22 Nov 08:44:22.762 * ****:659699 total messages read. --server.cc:203
+4164: 22 Nov 08:44:22.762 * ****:10900 average message size. --server.cc:207
+4164: 22 Nov 08:44:22.762 * ****:457.174301 MiB/s throughput. --server.cc:209
+4164: 22 Nov 08:44:22.762 * ****:43979 Msg/s throughput. --server.cc:211
+4164: 22 Nov 08:44:22.762 * CCSERVER wait for reactors. --server.cc:213
+4164: 22 Nov 08:44:22.764 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 500 Threads: 2 Sessions: 100 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4177: 22 Nov 08:44:23.803 * CCPP_CLIENT Begin! --server.cc:149
+4177: 22 Nov 08:44:23.875 * All connected. --server.cc:180
+4177: 22 Nov 08:44:38.877 * CCSERVER time off now! --server.cc:197
+4177: 22 Nov 08:44:38.877 * CCSERVER shutdown now! --epollreactor.cc:169
+4177: 22 Nov 08:44:38.877 * ****:10039772000 total bytes read. --server.cc:201
+4177: 22 Nov 08:44:38.877 * ****:184267 total messages read. --server.cc:203
+4177: 22 Nov 08:44:38.877 * ****:54484 average message size. --server.cc:207
+4177: 22 Nov 08:44:38.877 * ****:638.314978 MiB/s throughput. --server.cc:209
+4177: 22 Nov 08:44:38.877 * ****:12284 Msg/s throughput. --server.cc:211
+4177: 22 Nov 08:44:38.877 * CCSERVER wait for reactors. --server.cc:213
+4177: 22 Nov 08:44:38.881 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+msg_size: 1 Threads: 2 Sessions: 1000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4192: 22 Nov 08:44:39.927 * CCPP_CLIENT Begin! --server.cc:149
+4192: 22 Nov 08:44:40.042 * All connected. --server.cc:180
+4192: 22 Nov 08:44:55.044 * CCSERVER time off now! --server.cc:197
+4192: 22 Nov 08:44:55.044 * CCSERVER shutdown now! --epollreactor.cc:169
+4192: 22 Nov 08:44:55.044 * ****:128586864 total bytes read. --server.cc:201
+4192: 22 Nov 08:44:55.044 * ****:1179697 total messages read. --server.cc:203
+4192: 22 Nov 08:44:55.044 * ****:108 average message size. --server.cc:207
+4192: 22 Nov 08:44:55.044 * ****:8.175353 MiB/s throughput. --server.cc:209
+4192: 22 Nov 08:44:55.044 * ****:78646 Msg/s throughput. --server.cc:211
+4192: 22 Nov 08:44:55.044 * CCSERVER wait for reactors. --server.cc:213
+4192: 22 Nov 08:44:55.052 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 10 Threads: 2 Sessions: 1000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4213: 22 Nov 08:44:56.104 * CCPP_CLIENT Begin! --server.cc:149
+4213: 22 Nov 08:44:56.277 * All connected. --server.cc:180
+4213: 22 Nov 08:45:11.279 * CCSERVER time off now! --server.cc:197
+4213: 22 Nov 08:45:11.279 * CCSERVER shutdown now! --epollreactor.cc:169
+4213: 22 Nov 08:45:11.279 * ****:1208710810 total bytes read. --server.cc:201
+4213: 22 Nov 08:45:11.279 * ****:1108910 total messages read. --server.cc:203
+4213: 22 Nov 08:45:11.279 * ****:1089 average message size. --server.cc:207
+4213: 22 Nov 08:45:11.279 * ****:76.847902 MiB/s throughput. --server.cc:209
+4213: 22 Nov 08:45:11.279 * ****:73927 Msg/s throughput. --server.cc:211
+4213: 22 Nov 08:45:11.279 * CCSERVER wait for reactors. --server.cc:213
+4213: 22 Nov 08:45:11.288 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 100 Threads: 2 Sessions: 1000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4229: 22 Nov 08:45:12.342 * CCPP_CLIENT Begin! --server.cc:149
+4229: 22 Nov 08:45:12.565 * All connected. --server.cc:180
+4229: 22 Nov 08:45:27.567 * CCSERVER time off now! --server.cc:197
+4229: 22 Nov 08:45:27.567 * CCSERVER shutdown now! --epollreactor.cc:169
+4229: 22 Nov 08:45:27.568 * ****:6912681900 total bytes read. --server.cc:201
+4229: 22 Nov 08:45:27.568 * ****:634191 total messages read. --server.cc:203
+4229: 22 Nov 08:45:27.568 * ****:10900 average message size. --server.cc:207
+4229: 22 Nov 08:45:27.568 * ****:439.497172 MiB/s throughput. --server.cc:209
+4229: 22 Nov 08:45:27.568 * ****:42279 Msg/s throughput. --server.cc:211
+4229: 22 Nov 08:45:27.568 * CCSERVER wait for reactors. --server.cc:213
+4229: 22 Nov 08:45:27.571 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 500 Threads: 2 Sessions: 1000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4242: 22 Nov 08:45:28.639 * CCPP_CLIENT Begin! --server.cc:149
+4242: 22 Nov 08:45:29.278 * All connected. --server.cc:180
+4242: 22 Nov 08:45:44.280 * CCSERVER time off now! --server.cc:197
+4242: 22 Nov 08:45:44.280 * CCSERVER shutdown now! --epollreactor.cc:169
+4242: 22 Nov 08:45:44.280 * ****:9621866000 total bytes read. --server.cc:201
+4242: 22 Nov 08:45:44.281 * ****:176993 total messages read. --server.cc:203
+4242: 22 Nov 08:45:44.281 * ****:54362 average message size. --server.cc:207
+4242: 22 Nov 08:45:44.281 * ****:611.745230 MiB/s throughput. --server.cc:209
+4242: 22 Nov 08:45:44.281 * ****:11799 Msg/s throughput. --server.cc:211
+4242: 22 Nov 08:45:44.281 * CCSERVER wait for reactors. --server.cc:213
+4242: 22 Nov 08:45:44.333 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+msg_size: 1 Threads: 2 Sessions: 10000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4265: 22 Nov 08:45:45.418 * CCPP_CLIENT Begin! --server.cc:149
+4265: 22 Nov 08:45:46.532 * All connected. --server.cc:180
+4265: 22 Nov 08:46:01.534 * CCSERVER time off now! --server.cc:197
+4265: 22 Nov 08:46:01.534 * CCSERVER shutdown now! --epollreactor.cc:169
+4265: 22 Nov 08:46:01.534 * ****:89100524 total bytes read. --server.cc:201
+4265: 22 Nov 08:46:01.534 * ****:817436 total messages read. --server.cc:203
+4265: 22 Nov 08:46:01.534 * ****:109 average message size. --server.cc:207
+4265: 22 Nov 08:46:01.534 * ****:5.664928 MiB/s throughput. --server.cc:209
+4265: 22 Nov 08:46:01.534 * ****:54495 Msg/s throughput. --server.cc:211
+4265: 22 Nov 08:46:01.534 * CCSERVER wait for reactors. --server.cc:213
+4265: 22 Nov 08:46:01.660 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 10 Threads: 2 Sessions: 10000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4278: 22 Nov 08:46:02.878 * CCPP_CLIENT Begin! --server.cc:149
+4278: 22 Nov 08:46:04.183 * All connected. --server.cc:180
+4278: 22 Nov 08:46:19.185 * CCSERVER time off now! --server.cc:197
+4278: 22 Nov 08:46:19.185 * CCSERVER shutdown now! --epollreactor.cc:169
+4278: 22 Nov 08:46:19.185 * ****:845413810 total bytes read. --server.cc:201
+4278: 22 Nov 08:46:19.185 * ****:775610 total messages read. --server.cc:203
+4278: 22 Nov 08:46:19.185 * ****:1089 average message size. --server.cc:207
+4278: 22 Nov 08:46:19.185 * ****:53.750101 MiB/s throughput. --server.cc:209
+4278: 22 Nov 08:46:19.185 * ****:51707 Msg/s throughput. --server.cc:211
+4278: 22 Nov 08:46:19.185 * CCSERVER wait for reactors. --server.cc:213
+4278: 22 Nov 08:46:19.269 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 100 Threads: 2 Sessions: 10000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4291: 22 Nov 08:46:20.509 * CCPP_CLIENT Begin! --server.cc:149
+4291: 22 Nov 08:46:22.592 * All connected. --server.cc:180
+4291: 22 Nov 08:46:37.594 * CCSERVER time off now! --server.cc:197
+4291: 22 Nov 08:46:37.594 * CCSERVER shutdown now! --epollreactor.cc:169
+4291: 22 Nov 08:46:37.594 * ****:5483190500 total bytes read. --server.cc:201
+4291: 22 Nov 08:46:37.594 * ****:503046 total messages read. --server.cc:203
+4291: 22 Nov 08:46:37.594 * ****:10899 average message size. --server.cc:207
+4291: 22 Nov 08:46:37.594 * ****:348.612556 MiB/s throughput. --server.cc:209
+4291: 22 Nov 08:46:37.594 * ****:33536 Msg/s throughput. --server.cc:211
+4291: 22 Nov 08:46:37.594 * CCSERVER wait for reactors. --server.cc:213
+4291: 22 Nov 08:46:37.680 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+msg_size: 500 Threads: 2 Sessions: 10000 timeout: 15
+*****************ccserver Vs ccpp_client *********************************************
+4305: 22 Nov 08:46:39.116 * CCPP_CLIENT Begin! --server.cc:149
+4305: 22 Nov 08:46:44.949 * All connected. --server.cc:180
+4305: 22 Nov 08:46:59.953 * CCSERVER time off now! --server.cc:197
+4305: 22 Nov 08:46:59.956 * CCSERVER shutdown now! --epollreactor.cc:169
+4305: 22 Nov 08:46:59.958 * ****:8568645626 total bytes read. --server.cc:201
+4305: 22 Nov 08:46:59.958 * ****:182627 total messages read. --server.cc:203
+4305: 22 Nov 08:46:59.958 * ****:46918 average message size. --server.cc:207
+4305: 22 Nov 08:46:59.958 * ****:544.783282 MiB/s throughput. --server.cc:209
+4305: 22 Nov 08:46:59.958 * ****:12175 Msg/s throughput. --server.cc:211
+4305: 22 Nov 08:46:59.958 * CCSERVER wait for reactors. --server.cc:213
+4305: 22 Nov 08:47:00.187 * CCSERVER exit now! --server.cc:215
+------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
